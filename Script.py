@@ -11,7 +11,7 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://omegalinks.in/ref/GreyMatter6458')
+    HOME_BUTTONURL_UPDATES = environ.get("• Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ  ▪•", 'https://t.me/KR_PICTURE')
     START_TXT = environ.get("START_TXT", '''<strong><blockquote>Fʀɪᴇɴᴅꜱ.......🖤\n    Wᴇ Hᴀᴠᴇ Aʟʀᴇᴀᴅʏ Lᴏꜱᴛ Mᴀɴʏ Cʜᴀɴɴᴇʟꜱ Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ... Sᴏ Jᴏɪɴ Uꜱ Bʏ Gɪᴠɪɴɢ Yᴏᴜʀ Sᴜᴘᴘᴏʀᴛ, Cᴏᴏᴘᴇʀᴀᴛɪᴏɴ Aɴᴅ Bʟᴇꜱꜱɪɴɢꜱ Tᴏ Tʜɪꜱ Nᴇᴡ Cʜᴀɴɴᴇʟ Oꜰ Oᴜʀꜱ 🙏🙏. Tᴇᴀᴍ: @KR_Picture</blockquote></strong>
 ''')
     HELP_TXT = """<strong><blockquote>Aɴʏ Iꜱꜱᴜᴇꜱ Mᴏᴠɪᴇ Fɪʟᴇꜱ Cᴏɴᴛᴀᴄᴛ Oᴡɴᴇʀ \n \n🍁 Oᴡɴᴇʀ: <a href="https://t.me/Nikhil5757h"> Ｄ Ｉ Ｃ Ｔ Ａ ＴＯ Ｒ</a></blockquote></strong>"""
