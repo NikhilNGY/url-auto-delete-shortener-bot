@@ -37,8 +37,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{GRP_LNK}'),
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/{CHNL_LNK}')
                  ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -56,8 +56,8 @@ async def save_group(bot, message):
                 temp.MELCOW['welcome'] = await message.reply_video(
                 video="https://telegra.ph/file/03691465baa774e46506d.mp4",                                               
                                                                                                   caption=f'<b>Hᴇʏ, {u.mention} 👋🏻\nWᴇʟᴄᴏᴍᴇ Tᴏ Oᴜʀ Gʀᴏᴜᴘ {message.chat.title}\n\n⚠️ RULES :\n \n⁣📌Request Format:\n \n👉Send Only Movie Name & Year Only\n     And\n        Movie Name With Correct Spelling (Search In Google &  Then Send🔍)\n  \nExample: Joe 2023\n       Good Night 2024</b>',
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                                                                           InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{GRP_LNK}'),
+                                                                           InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/{CHNL_LNK}')
                                                                         ] ] )
                 )
 
