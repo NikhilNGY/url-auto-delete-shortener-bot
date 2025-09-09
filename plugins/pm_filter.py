@@ -771,7 +771,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("⁣📌Request Format:\n \n👉Send Only Movie Name & Year Only\n      And\n        Movie Name With Correct Spelling (Search In Google &  Then Send🔍)\n \nExample: Joe 2023\n           Good Night 2024")
+        k = await msg.reply("⁣I couldn't find any movie in that name.\n \n📌Movie Request Format:\n \n👉Send Only Movie Name & Year Only\n      And\n        Movie Name With Correct Spelling (Search In Google &  Then Send🔍)\n \nExample: Joe 2023\n           Good Night 2024")
         await asyncio.sleep(900)
         await k.delete()
         return
@@ -800,7 +800,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("⁣📌Request Format:\n \n👉Send Only Movie Name & Year Only\n      And\n        Movie Name With Correct Spelling (Search In Google &  Then Send🔍)\n \nExample: Joe 2023\n               Good Night 2024")
+        k = await msg.reply("⁣I couldn't find anything related to that. Check your spelling.\n \n📌Movie Request Format:\n \n👉Send Only Movie Name & Year Only\n      And\n        Movie Name With Correct Spelling (Search In Google &  Then Send🔍)\n \nExample: Joe 2023\n               Good Night 2024")
         await asyncio.sleep(900)
         await k.delete()
         return
