@@ -26,7 +26,7 @@ class script(object):
     ) 
 
     IMDB_TEMPLATE_TXT = """<strong><blockquote>
-Hey {u.mention} 👋🏻
+Hey Mahn 👋🏻
 
 ➤Nᴀᴍᴇ: {title} {year}
 ➤Yᴏᴜʀ Fɪʟᴇ Rᴇᴀᴅʏ Nᴏᴡ👇
