@@ -20,6 +20,18 @@ class script(object):
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » I will Create One Bot For You<b>
 » Contact Me @Nikhil5757h<b>"""
+
+    CAPTION = (
+        "<strong><blockquote>Mᴏʀᴇ Mᴏᴠɪᴇꜱ Jᴏɪɴ @sandalwood_kannada_moviesz\n \nTᴇᴀᴍ : @KR_Picture\n \nUᴘʟᴏᴀᴅᴇᴅ Bʏ 👉\nhttps://t.me/+X5CwwZB-jV9iODc1\nhttps://t.me/+X5CwwZB-jV9iODc1</blockquote></strong>"
+    ) 
+
+    IMDB_TEMPLATE_TXT = """<strong><blockquote>
+Hey {message.from_user.mention} 👋🏻
+
+➤Nᴀᴍᴇ: {title} {year}
+➤Yᴏᴜʀ Fɪʟᴇ Rᴇᴀᴅʏ Nᴏᴡ👇
+</blockquote></strong>"""
+
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
