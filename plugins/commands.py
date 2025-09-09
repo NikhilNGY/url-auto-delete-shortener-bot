@@ -24,8 +24,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('• Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ •', url=f'https://t.me/sandalwood_kannada_moviesz')
             ],[
-                InlineKeyboardButton('• Mᴏᴠɪᴇ Gʀᴏᴜᴘ •', url=f'GRP_LNK'),
-                InlineKeyboardButton('• Mᴀɪɴ Cʜᴀɴɴᴇʟ •', url=f'CHNL_LNK')
+                InlineKeyboardButton('• Mᴏᴠɪᴇ Gʀᴏᴜᴘ •', url=f'https://t.me/{GRP_LNK}'),
+                InlineKeyboardButton('• Mᴀɪɴ Cʜᴀɴɴᴇʟ •', url=f'https://t.me/{CHNL_LNK}')
             ],[
                 InlineKeyboardButton('•  Hᴇʟᴘ   •', callback_data='help')
             ]]
@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('• Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ •', url=f'https://t.me/sandalwood_kannada_moviesz')
             ],[
-                InlineKeyboardButton('• Mᴏᴠɪᴇ Gʀᴏᴜᴘ •', url=f'GRP_LNK'),
-                InlineKeyboardButton('• Mᴀɪɴ Cʜᴀɴɴᴇʟ •', url=f'CHNL_LNK')
+                InlineKeyboardButton('• Mᴏᴠɪᴇ Gʀᴏᴜᴘ •', url=f'https://t.me/{GRP_LNK}'),
+                InlineKeyboardButton('• Mᴀɪɴ Cʜᴀɴɴᴇʟ •', url=f'https://t.me/{CHNL_LNK}')
             ],[
                 InlineKeyboardButton('•  Hᴇʟᴘ   •', callback_data='help')
             ]]
@@ -89,8 +89,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('• Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ •', url=f'https://t.me/sandalwood_kannada_moviesz')
             ],[
-                InlineKeyboardButton('• Mᴏᴠɪᴇ Gʀᴏᴜᴘ •', url=f'GRP_LNK'),
-                InlineKeyboardButton('• Mᴀɪɴ Cʜᴀɴɴᴇʟ •', url=f'CHNL_LNK')
+                InlineKeyboardButton('• Mᴏᴠɪᴇ Gʀᴏᴜᴘ •', url=f'https://t.me/{GRP_LNK}'),
+                InlineKeyboardButton('• Mᴀɪɴ Cʜᴀɴɴᴇʟ •', url=f'https://t.me/{CHNL_LNK}')
             ],[
                 InlineKeyboardButton('•  Hᴇʟᴘ   •', callback_data='help')
             ]]
@@ -242,7 +242,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('• Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ •', url=CHNL_LNK) ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('• Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ •', url=f'https://t.me{CHNL_LNK}') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
